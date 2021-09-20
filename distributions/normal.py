@@ -23,6 +23,7 @@ def normal_distribution():
             x='x',
             y='probability density',
             tooltip=['x', 'probability density'],
+            color='key:N'
         )
         st.altair_chart(line_chart.interactive(), use_container_width=True)
 
